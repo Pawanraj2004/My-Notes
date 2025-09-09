@@ -20,7 +20,6 @@ const Navbar = () => {
             >
             <Github className="size-5" />
             </a>
-            <Palette />
           </div>
         </div>
       </div>
