@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 const __dirname = path.resolve();
 
 // middleware
-if (process.env.NODE_ENV !== "production") {
+if (process.env.NODE_ENV != "production") {
   app.use(
     cors({
       origin: "http://localhost:5173",
